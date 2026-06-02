@@ -1,11 +1,12 @@
 def multiplicadorDosNumeros (x,y):
-    resultado = x * y
-    resultado = 'a'
+    resultadolocal = x * y
+    return resultadolocal
 
-    return resultado
+    
+resultadoGlobal= multiplicarDosNumeros (8,10)
+print(resultadoGlobal)
 
+def multiplicarGlobalPorOtroNumero (numero):
+    print(resultadoGlobal * numero)  
 
-print(mutiplicarDosNumeros(5, 5))
-
-for i in range (0,8):
-    print('Hola Mundo"
+multiplicarGlobalPorOtroNumero (3).
